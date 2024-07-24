@@ -73,23 +73,38 @@ body {
 
 .card {
   cursor: pointer;
-}
-
-.image-top {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+  border: 0 solid transparent
 }
 
 .card-text {
   height: 70px;
   font-weight: 500;
+
+}
+
+.card-body  {
+  background-color: #2e4553;
+  color:white
 }
 
 .card-body .btn {
-  border: 1px solid #222129;
+  border: 1px solid #ffffff;
   transition: .3s all;
+  color:white
 }
 
 .card-body .btn:hover {
   background-color: #222129;
-  color:White
+}
+
+.btn-custom-form{
+  background-color: #222129;
+  color:white;
+  transition: .3s all;
+}
+
+.btn-custom-form:hover{
+  background-color: white;
+  color:#222129;
+  border:1px solid  #222129;
 }
