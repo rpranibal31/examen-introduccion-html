@@ -5,7 +5,7 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: url("../img/bg-hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -36,4 +36,28 @@ body {
     width: 100px;
   }
 
+}
+
+.typing{
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  border-right: 0.15em solid #61DBFB;
+  animation: typing 4s steps(17) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
