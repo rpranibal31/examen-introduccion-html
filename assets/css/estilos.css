@@ -32,23 +32,21 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
 
 /* TODO ESTO ES NUEVO */
 
-.typing{
+.typing {
   width: 0;
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-  border-right: 0.15em solid #61DBFB;
+  border-right: 0.15em solid #61dbfb;
   animation: typing 4s steps(17) 1s 1 normal both, blink 1s steps(1) infinite;
 }
-
 
 @keyframes typing {
   from {
@@ -64,6 +62,34 @@ body {
   }
 }
 
-.ico-custom{
+.ico-custom {
   font-size: 5rem;
+  color: #222129;
+}
+
+.bg-custom-info {
+  background-color: #222129;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.image-top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+.card-text {
+  height: 70px;
+  font-weight: 500;
+}
+
+.card-body .btn {
+  border: 1px solid #222129;
+  transition: .3s all;
+}
+
+.card-body .btn:hover {
+  background-color: #222129;
+  color:White
 }
