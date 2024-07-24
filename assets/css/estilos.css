@@ -38,6 +38,8 @@ body {
 
 }
 
+/* TODO ESTO ES NUEVO */
+
 .typing{
   width: 0;
   overflow: hidden;
@@ -60,4 +62,8 @@ body {
   50% {
     border-color: transparent;
   }
+}
+
+.ico-custom{
+  font-size: 5rem;
 }
